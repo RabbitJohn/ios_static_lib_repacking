@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# script for filtering the third library
+# script for filtering and removing the third library
 
 #提示并从terminal中读取path变量
 echo "please drag the file below" && read path
