@@ -3,7 +3,7 @@
 # script for filtering the third library
 
 #提示并从terminal中读取path变量
-echo "please input the drag the file below" && read path
+echo "please drag the file below" && read path
 echo the library path is $path
 #查看 fat file 里面的架构
 lipo -info $path
